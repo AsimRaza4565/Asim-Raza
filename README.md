@@ -26,5 +26,10 @@ This is the asp .net web application having two forms "CP_FUND_OPTION_FORM" and 
 8.  **NOMINATION_FORM.aspx.cs**
    This backend file handles form submission logic for the nomination form. It validates user inputs, ensures the user can submit only once, and saves the information in the database. If successful, a message 
    is displayed via a Bootstrap modal.
+9. **Web.config**
+    The web.config file is a crucial configuration component of the ASP.NET application, managing various settings for the project's functionality. It includes a connection string that connects the 
+    application to the SQL Server database (Project1) using SQL authentication. It configures the session timeout to 5 minute, ensuring that users are automatically logged out after inactivity. Additionally, 
+    custom HTTP headers are defined to prevent caching, ensuring that users always receive the most up-to-date content. This configuration file is vital for managing database connections, security, and 
+    session handling within the web application.
     
 # Asim-Raza
